@@ -1,0 +1,12 @@
+# Ігноруємо залежності в обох папках
+online-library-backend/node_modules/
+online-library-frontend/node_modules/
+
+# Ігноруємо секретні дані та білди
+.env
+build/
+dist/
+
+# Додаткові системні файли
+.DS_Store
+Thumbs.db
